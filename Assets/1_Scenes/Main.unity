@@ -152,20 +152,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b37d5a9a52eb9040960c15d93c4cda7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DtatArr:
+  - GroupCount: 2
+  - GroupCount: 3
+  - GroupCount: 1
   SpawnPos: {fileID: 785735815}
   LargePlatformsArr:
-  - {fileID: 8933660578319977453, guid: 31fe6c5c4135f2749bf63f289fcccbb4, type: 3}
-  - {fileID: 8933660578319977453, guid: 2ed96466d356db74ea3b2ac0ea219b06, type: 3}
-  - {fileID: 8933660578319977453, guid: a0ed5353eebeb414eb1c176548e6d923, type: 3}
+  - {fileID: 91851694199967872, guid: 5946574c23353024c947a66bd3e5f347, type: 3}
+  - {fileID: 91851694199967872, guid: d5c7281169689424a83639fba3056684, type: 3}
+  - {fileID: 91851694199967872, guid: 8867a4dd8594a9d44b8e1f667ed6369e, type: 3}
   MiddiePlatformsArr:
-  - {fileID: 4238640651980241501, guid: 84cdaccd8284263429fd17eb6fea7614, type: 3}
-  - {fileID: 4238640651980241501, guid: 792c524193e4dbf4b9ad2c08cf1638a4, type: 3}
-  - {fileID: 4238640651980241501, guid: 03b61f168ec4ffe448eec513da932b3e, type: 3}
+  - {fileID: 2716467628944367719, guid: 9ce9b98c92a1fa142bee8e3dd779f872, type: 3}
+  - {fileID: 2716467628944367719, guid: 66ae1f11f17e37b4792c3d4cbed71f10, type: 3}
+  - {fileID: 2716467628944367719, guid: 6e8fc7c442b8d5f4a892385d00185660, type: 3}
   SmallPlatformsArr:
-  - {fileID: 8973906627256512561, guid: d8707b299ec914843b0c5d1b2d4a604c, type: 3}
-  - {fileID: 8973906627256512561, guid: a1b99e21c58e04943995c7a222e5d502, type: 3}
-  - {fileID: 8973906627256512561, guid: 5d1a0bce71d5bd44b8e36c934aede435, type: 3}
-  - {fileID: 8973906627256512561, guid: 4e87689447b8c294b8a8f1234084e13d, type: 3}
+  - {fileID: 7320067623003227649, guid: 4fc19f9c7f7f99844a946d708c915978, type: 3}
+  - {fileID: 7320067623003227649, guid: 316340eafa4a5c4409fc76d57c545226, type: 3}
+  - {fileID: 7320067623003227649, guid: cd39d73ec6989de43943a811bd8cd5bd, type: 3}
+  - {fileID: 7320067623003227649, guid: f1a4d823471cccd45b063c66d7d112a2, type: 3}
 --- !u!4 &16241021
 Transform:
   m_ObjectHideFlags: 0
