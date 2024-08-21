@@ -45,11 +45,11 @@ public class PlatfronManager : MonoBehaviour
         Platform[] Platforms = PlatFormArrDic[2]; //로컬 지정, L플랫폼 중 불러오기
 
         int randID = Random.Range(0, Platforms.Length);
-        Platform Randomplatform = Platforms[randID];
+        Platform RandomplatformPrefab = Platforms[randID];
 
         Debug.Log("ActiveOne-Pos : " + pos);
-        Platform platform1 = Instantiate(Randomplatform); //로컬 지정
-        Randomplatform.Active(pos); //스폰 위치 불러오기
+        Platform platform = Instantiate(RandomplatformPrefab); //로컬 지정
+        platform.Active(pos); //스폰 위치 불러오기
 
         pos += Vector3.right * 6; //플랫폼 위치를 이동
         return pos; //값을 돌리기
